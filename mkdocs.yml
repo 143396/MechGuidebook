@@ -1,3 +1,68 @@
-site_name: MasterLibrary
+site_name: 6479's Mechanical Guidebook
+
+nav:
+  - Home:
+    - index.md
+    - Test:
+      - Test/hello.md
+  - Section 1:
+    - section1/index.md
+  - Section 2:
+    - section2/index.md
+  - Section 3:
+    - section3/index.md
+  - Section 4:
+    - section4/index.md
+  - Section 5:
+    - section5/index.md
+
 theme:
   name: material
+  icon:
+    logo: material/bookshelf
+
+  features:
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.indexes
+    - navigation.top
+    - content.tooltips
+
+  palette:
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default 
+      toggle:
+        icon: material/lightbulb-on
+        name: Switch to dark mode
+      primary: orange   
+      accent: yellow
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/lightbulb-outline
+        name: Switch to light mode
+      primary: orange   
+      accent: yellow
+
+plugins:
+  - search
+  - glightbox
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - footnotes
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - abbr
+  - attr_list
+  - pymdownx.snippets
