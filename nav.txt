@@ -1,0 +1,140 @@
+nav:
+ - "Home": index.md
+ 
+ - "Introduction": 0-introduction/index.md
+
+ - "Measuring, Clamping, and Marking":
+	- 01-measuring-clamping-marking/index.md
+	- "Calipers, Rulers, and Measuring Tapes": 01-measuring-clamping-marking/0-calipers-rulers-tapes.md
+	- "Using Clamps": 01-measuring-clamping-marking/01-clamps.md
+	- "Methods of Marking": 01-measuring-clamping-marking/02-marking.md
+	- "Reading Engineering Drawings": 01-measuring-clamping-marking/03-drawings.md
+
+ - "Stock & Materials":
+	- 02-stock-materials/index.md
+	- "Aluminum Extrusions": 02-stock-materials/0-extrusions.md
+	- "Shafts": 02-stock-materials/01-shafts.md
+	- "Wood": 02-stock-materials/02-wood.md
+	- "Polycarb": 02-stock-materials/03-polycarb.md
+
+ - "Tools":
+	- 03-tools/index.md
+	- "General Purpose":
+		- "Hacksaw": 03-tools/0-general/0-hacksaw.md
+		- "Chop Saw": 03-tools/0-general/01-chop-saw.md
+		- "Belt Sander": 03-tools/0-general/02-belt-sander.md
+		
+	- "Handhelds":
+		- "Allen Keys": 03-tools/01-handhelds/0-allens.md
+		- "Wrenches & Socket Wrenches": 03-tools/01-handhelds/01-wrenches-sockets.md
+		
+	- "Holes!":
+		- "Drills": 03-tools/02-holes/0-drills.md
+		- "Drillpress": 03-tools/02-holes/01-drillpress.md
+		
+	- "Processing!": 03-tools/03-processing/index.md
+		
+	- "Bandsaws":
+		- "Horizontal Bandsaw": 03-tools/04-bandsaws/0-horizontal-bandsaw.md
+		- "Vertical Bandsaw": 03-tools/04-bandsaws/01-vertical-bandsaw.md
+		
+	- "Miscellaneous": 
+		- "Dremmel": 03-tools/05-miscellaneous/0-dremmel.md
+		- "Jigsaw": 03-tools/05-miscellaneous/01-jigsaw.md
+		- "Reciprocating Saw": 03-tools/05-miscellaneous/02-reciprocating-saw.md
+		- "Circular Saw": 03-tools/05-miscellaneous/03-circular-saw.md
+		- "Arbor Press": 03-tools/05-miscellaneous/04-arbor-press.md
+    
+ - "Larger Machinery":
+	- 04-machinery/index.md
+	- "Manual Mill": 04-machinery/0-manual-mill.md
+	- "Lathe": 04-machinery/01-lathe.md
+	- "Router": 04-machinery/02-router.md
+	- "Laser Cuttter": 04-machinery/03-laser-cutter.md
+	- "3D Printers": 04-machinery/04-3d-printers.md
+
+ - "Important Principles":
+	- 05-principles/index.md
+	- "Gear Ratios": 05-principles/0-gear-ratios.md
+	- "Tolerances": 05-principles/02-tolerances.md
+	- "Lightening": 05-principles/03-lightening.md
+	
+	- "Torque & Speed":
+		- 05-principles/01-torque-speed/index.md
+		- "Design Calculators": 05-principles/01-torque-speed/0-design-calculators.md
+
+ - "Hardware & Fasteners":
+	- 06-hardware-fasteners/index.md
+	- "Hardware Types": 
+		- "Bolts & Nuts": 06-hardware-fasteners/0-hardware-types/0-bolts-nuts.md
+		- "Rivets": 06-hardware-fasteners/0-hardware-types/01-rivets.md
+		- "Spacers & Standoffs": 06-hardware-fasteners/0-hardware-types/02-spacers-standoffs.md
+		- "Washers": 06-hardware-fasteners/0-hardware-types/03-washers.md
+		- "Shaft Retention":
+			- 06-hardware-fasteners/0-hardware-types/04-shaft-retention/index.md
+			- "Snap Rings": 06-hardware-fasteners/0-hardware-types/04-shaft-retention/0-snap-rings.md
+			- "Shaft Collars": 06-hardware-fasteners/0-hardware-types/04-shaft-retention/01-shaft-collars.md
+		- "Bearings & Bushings": 06-hardware-fasteners/0-hardware-types/05-bearings-bushings.md
+		- "Hubs": 06-hardware-fasteners/0-hardware-types/06-hubs.md
+	
+	- "Threads":
+		- 06-hardware-fasteners/01-threads/index.md
+		- "Taps & Dies": 06-hardware-fasteners/01-threads/0-taps-dies.md
+
+	- "Holes for Fasteners": 06-hardware-fasteners/02-fastener-holes.md
+	- "Loctite": 06-hardware-fasteners/03-loctite.md
+	
+ - "Wheels & Flywheels":
+	- 07-wheels-flywheels/index.md
+	- "Wheel Types": 07-wheels-flywheels/0-wheels.md
+	- "Flywheels": 07-wheels-flywheels/01-flywheels.md
+	- "Driving Wheels": 07-wheels-flywheels/02-driving-wheels.md
+	- "Considering Gear Reductions": 07-wheels-flywheels/03-gear-reductions.md
+
+ - "Energy Transfer Mechanisms":
+	- 08-energy-transfer/index.md
+	- "Chain & Sprocket": 08-energy-transfer/0-chain-sprocket.md
+	- "Belt & Pulley":
+		- 08-energy-transfer/01-belt-pulley/index.md
+		- "Belt Calculator": 08-energy-transfer/01-belt-pulley/0-belt-calculator.md
+	- "Gears": 08-energy-transfer/02-gears.md
+	- "Polycord & Flat Urethane Belts": 08-energy-transfer/03-polycord-urethane-belts.md
+	- "Live vs. Dead Axles": 08-energy-transfer/04-live-dead-axles.md
+
+ - "Motors & Gearboxes":
+	- 09-motors-gearboxes/index.md
+	- "Motors": 09-motors-gearboxes/0-motors.md
+	- "Motor Controllers": 09-motors-gearboxes/01-motor-controllers.md
+	- "Gearboxes": 09-motors-gearboxes/02-gearboxes.md
+
+ - "Robot Mechanisms":
+	- 10-robot-mechanisms/index.md
+	- "Drivetrains":
+		- 10-robot-mechanisms/0-drivetrains/index.md
+		
+	- "Intakes":
+		- 10-robot-mechanisms/01-intakes/index.md
+		
+	- "Arms":
+		- 10-robot-mechanisms/02-arms/index.md
+		
+	- "Elevators":
+		- 10-robot-mechanisms/03-elevators/index.md
+		
+	- "Telescopes":
+		- 10-robot-mechanisms/04-telescopes/index.md
+		
+	- "Turrets":
+		- 10-robot-mechanisms/05-turrets/index.md
+		
+	- "Shooters":
+		- 10-robot-mechanisms/06-shooters/index.md
+		
+	- "Linkages":
+		- 10-robot-mechanisms/07-linkages/index.md
+    
+	- "End Effectors":
+		10-robot-mechanisms/08-end-effectors/index.md
+		
+	- "Pneumatics":
+		10-robot-mechanisms/09-pneumatics/index.md
